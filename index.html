@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +8,32 @@
 
     <title>聊天畫面</title>
 </head>
-<body>
+<body class="w-auto h-auto p-0 m-0">
 
-    <div class="bg-gray-600 h-20">
-            <img src="photo.jpg" alt="error" class="w-16 h-16 float-left ml-28 rounded-3xl " >
-            <p class="text-2xl ml-52 pt-4	">小明</p>
+    <div class="bg-stone-500 h-20">
+            <img src="photo.jpg" alt="error" class="w-16 h-16 float-left ml-28 mt-2  rounded-3xl " >
+            <p class="text-2xl ml-52 pt-6 relative top-2	">小明</p>
+            <div class="h-1 bg-gray-600 ml-36 relative top-7 right-7"></div>
     </div>
 <!----------------------------------------------------->
     <div class=" h-96">
+        <div class="my-4 h-10  relative top-8">
+            <p class="text-center text-xl text-gray-400" >17:57</p>
+        </div>
         <div class="pt-4 h-14">
             <img src="photo.jpg" alt="error" class="w-16 h-16 float-left ml-28 rounded-3xl mt-8 " >
             <div class="border-solid border-2 rounded-full h-16 mt-8 ml-48 w-56 ">
-                <p class="text-xl ml-10 pt-5">自潛~~~~~</p>
+                <p class="text-xl ml-6 pt-5">自潛~~~~~</p>
             </div>
         </div>
         <div class="pt-1 h-14">
-            <div class="border-solid border-2 rounded-full h-16 mt-16 mr-4 w-56  float-right ">
-                <p class="text-xl mt-5 ml-14">沒綽~~~~~</p>
-                <div class="border-solid border-2 rounded-full  h-16 mt-8 mr-0 w-72 float-right ">
-                    <p class="text-xl mt-5 ml-10">台北的季節就快要到了</p>
+            <div class="border-solid border-2 rounded-full h-16 mt-16 mr-4 w-40  float-right bg-green-400	 ">
+                <p class="text-xl mt-4 ml-5">沒綽~~~~~</p>
+                <div class="border-solid border-2 rounded-full  h-16 mt-8  w-72 float-right bg-green-400 ">
+                    <p class="text-xl mt-4 ml-12">台北的季節就快要到了</p>
                 </div>
-                <div class="border-solid border-2 rounded-full h-16 mt-4 mr-0 w-96  float-right ">
-                    <p class="text-xl mt-5 ml-7">終於可以不用再那麼燒荷包跑到南部 </p>
+                <div class="border-solid border-2 rounded-full h-16 mt-4  w-96  float-right bg-green-400 ">
+                    <p class="text-xl mt-4 ml-7">終於可以不用再那麼燒荷包跑到南部 </p>
                 </div>
             </div>
         </div>
@@ -48,25 +52,34 @@
 
 
         <div class="h-14">
-            <div class="border-solid border-2 rounded-full  h-16 mt-48 mr-4 w-56  float-right ">
+            <div class="border-solid border-2 rounded-full  h-16 mt-48 mr-4 w-56  float-right bg-green-400 ">
                 <p class="text-xl mt-4 ml-8">我已經排好排滿了</p>    
-                    <div class="border-solid border-2 rounded-full h-16 mt-8 ml-64 w-36  float-right ">
+                    <div class="border-solid border-2 rounded-full h-16 mt-8 ml-64 w-36  float-right bg-green-400 ">
                         <p class="text-xl mt-4 ml-7 ">所有連假</p>
                     </div> 
-                    <div class="border-solid border-2 rounded-full h-16 mt-4 ml-64 w-80  float-right ">
+                    <div class="border-solid border-2 rounded-full h-16 mt-4 ml-64 w-80  float-right bg-green-400 ">
                         <p class="text-xl mt-4 ml-7 ">剩下的周休就好好待在東北角</p>
                     </div> 
                     <div class="w-72 ">
                         <p class=" text-lg  pt-36 text-right text-green-600 pr-20"><i class='bx bxs-check-circle '></i>獲取已讀回執 已發送</p> 
                     </div>              
             </div>
+        <!------------------->
         </div>
 
-        <div class="h-24 bg-gray-600 mt-96  ml-28">
-            
+        <div class="h-18  mt-96  ml-28  " >
+            <i class='bx bxs-plus-circle text-5xl mt-1  '></i>
+            <div class="border-solid border-2 rounded-full  h-9  ml-20 mr-20 relative bottom-11" >
+                <p class="text-xl ml-4 mt-0.5">輸入聊天內容</p>
+            </div>
+            <div class="float-right">
+                <i class='bx bx-microphone text-5xl relative bottom-24 right-4 mt-2.5 '  ></i>
+            </div>
         </div>
+        
+       
       
-        </div> <!--body尾-->
+        </div> <!--body尾 -->
 
     
 </body>
